@@ -6,12 +6,22 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
+    <Page.TopAppBar>
+        <AppBar Background="DarkGray" Foreground="White">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" >
+                <AppBarButton Icon="Home" Label="Home" Click="Home_Click" Background ="DarkGray" Foreground="White"/>
+            </StackPanel>
+        </AppBar>
+    </Page.TopAppBar>
     <Grid Background="Black">
         <Grid.RowDefinitions>
             <RowDefinition Height=".9*"></RowDefinition>
             <RowDefinition Height=".1*"></RowDefinition>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Row="1" Text="**Clear All Orders**" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32"></TextBlock>
+        <!--<TextBlock Grid.Row="1" Text="**Clear All Orders**" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32"></TextBlock>-->
+        <GridView Background="Red"></GridView>
+        
+        <Button Grid.Row="1" Content="**Clear All Orders**" Background="Gray" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32"></Button>
+        
     </Grid>
 </Page>

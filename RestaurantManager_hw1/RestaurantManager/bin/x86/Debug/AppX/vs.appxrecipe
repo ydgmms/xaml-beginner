@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\VMWare\Documents\Visual Studio 2015\Projects\RestaurantManager\RestaurantManager\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-27T03:49:53.315</Modified>
+      <Modified>2015-11-01T01:48:39.628</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -86,7 +86,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\VMWare\Documents\Visual Studio 2015\Projects\RestaurantManager\RestaurantManager\bin\x86\Debug\Core\entrypoint\RestaurantManager.exe">
       <PackagePath>entrypoint\RestaurantManager.exe</PackagePath>
-      <Modified>2015-10-27T03:49:45.162</Modified>
+      <Modified>2015-11-01T01:48:38.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\VMWare\Documents\Visual Studio 2015\Projects\RestaurantManager\RestaurantManager\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -118,15 +118,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\VMWare\Documents\Visual Studio 2015\Projects\RestaurantManager\RestaurantManager\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-10-27T03:49:49.568</Modified>
+      <Modified>2015-11-01T01:48:38.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\VMWare\Documents\Visual Studio 2015\Projects\RestaurantManager\RestaurantManager\bin\x86\Debug\Core\RestaurantManager.exe">
       <PackagePath>RestaurantManager.exe</PackagePath>
-      <Modified>2015-10-27T03:49:53.307</Modified>
+      <Modified>2015-11-01T01:48:39.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\VMWare\Documents\Visual Studio 2015\Projects\RestaurantManager\RestaurantManager\bin\x86\Debug\Core\RestaurantManager.xr.xml">
       <PackagePath>RestaurantManager.xr.xml</PackagePath>
-      <Modified>2015-10-27T03:49:43.871</Modified>
+      <Modified>2015-11-01T01:48:37.927</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\VMWare\Documents\Visual Studio 2015\Projects\RestaurantManager\RestaurantManager\bin\x86\Debug\Core\splashscreen.scale-100.png">
       <PackagePath>splashscreen.scale-100.png</PackagePath>

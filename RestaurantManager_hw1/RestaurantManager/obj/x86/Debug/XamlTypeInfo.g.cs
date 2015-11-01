@@ -133,18 +133,18 @@ namespace RestaurantManager.RestaurantManager_XamlTypeInfo
         private void InitTypeTables()
         {
             _typeNameTable = new string[5];
-            _typeNameTable[0] = "RestaurantManager.BlankPage1";
+            _typeNameTable[0] = "RestaurantManager.ExpediatePage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "RestaurantManager.ExpediatePage";
-            _typeNameTable[4] = "RestaurantManager.MainPage";
+            _typeNameTable[3] = "RestaurantManager.MainPage";
+            _typeNameTable[4] = "RestaurantManager.OrderPage";
 
             _typeTable = new global::System.Type[5];
-            _typeTable[0] = typeof(global::RestaurantManager.BlankPage1);
+            _typeTable[0] = typeof(global::RestaurantManager.ExpediatePage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::RestaurantManager.ExpediatePage);
-            _typeTable[4] = typeof(global::RestaurantManager.MainPage);
+            _typeTable[3] = typeof(global::RestaurantManager.MainPage);
+            _typeTable[4] = typeof(global::RestaurantManager.OrderPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -179,9 +179,9 @@ namespace RestaurantManager.RestaurantManager_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_BlankPage1() { return new global::RestaurantManager.BlankPage1(); }
-        private object Activate_3_ExpediatePage() { return new global::RestaurantManager.ExpediatePage(); }
-        private object Activate_4_MainPage() { return new global::RestaurantManager.MainPage(); }
+        private object Activate_0_ExpediatePage() { return new global::RestaurantManager.ExpediatePage(); }
+        private object Activate_3_MainPage() { return new global::RestaurantManager.MainPage(); }
+        private object Activate_4_OrderPage() { return new global::RestaurantManager.OrderPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -193,9 +193,9 @@ namespace RestaurantManager.RestaurantManager_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  RestaurantManager.BlankPage1
+            case 0:   //  RestaurantManager.ExpediatePage
                 userType = new global::RestaurantManager.RestaurantManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_BlankPage1;
+                userType.Activator = Activate_0_ExpediatePage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -208,16 +208,16 @@ namespace RestaurantManager.RestaurantManager_XamlTypeInfo
                 xamlType = new global::RestaurantManager.RestaurantManager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  RestaurantManager.ExpediatePage
+            case 3:   //  RestaurantManager.MainPage
                 userType = new global::RestaurantManager.RestaurantManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_ExpediatePage;
+                userType.Activator = Activate_3_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  RestaurantManager.MainPage
+            case 4:   //  RestaurantManager.OrderPage
                 userType = new global::RestaurantManager.RestaurantManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_MainPage;
+                userType.Activator = Activate_4_OrderPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

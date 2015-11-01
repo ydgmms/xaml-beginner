@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
+
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
 namespace RestaurantManager
@@ -25,6 +26,16 @@ namespace RestaurantManager
         public MainPage()
         {
             this.InitializeComponent();
+        }
+        
+        private void btnGoToExpediate_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(ExpediatePage));
+        }
+
+        private void btnSubmitOrder_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(OrderPage));
         }
     }
 }
